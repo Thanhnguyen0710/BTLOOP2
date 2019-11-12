@@ -31,7 +31,7 @@ public class Config {
     public static final double MACHINE_GUN_TOWER_RANGE = 4.0;
 
     public static final int SNIPER_TOWER_SPEED = 60;
-    public static final double SNIPER_TOWER_RANGE = 8.0;
+    public static final double SNIPER_TOWER_RANGE = 6.0;
 
     //BUllet
     public static final int NORMAL_BULLET_TTL = 30;
