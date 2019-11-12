@@ -13,4 +13,6 @@ public interface Enemy extends GameEntity {
 
     boolean isEnemyDead();
 
+    boolean onDestroy();
+
 }

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f3c2f0ab-db04-409d-88f2-d8cd44b1f53d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/enemy/AbstractEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/enemy/AbstractEnemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/enemy/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/tile/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/tile/Road.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573553410282</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1573553530391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573553530391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -62,7 +73,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

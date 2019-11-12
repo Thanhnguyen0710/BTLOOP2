@@ -1,4 +1,5 @@
 import entity.GameEntity;
+import entity.enemy.AbstractEnemy;
 import entity.tile.tower.MachineGunTower;
 import entity.tile.tower.NormalTower;
 import entity.tile.tower.SniperTower;
@@ -43,4 +44,17 @@ public class GameField {
     public void doSpawnMachineGunTower(int posX,int posY){
         spawnEntity.add(new MachineGunTower(posX,posY));
     }
+
+    public void doDestroy(){
+        for(int i = 0 ; i < spawnEntity.size() ; i++){
+            if(spawnEntity.get(i) instanceof AbstractEnemy){
+                if (((AbstractEnemy) spawnEntity.get(i)).onDestroy()){
+                    spawnEntity.remove(i);
+                    i--;
+                }
+
+            }
+        }
+    }
+
 }

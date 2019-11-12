@@ -56,4 +56,9 @@ public abstract class AbstractEnemy implements Enemy {
         return enemyDead;
     }
 
+    @Override
+    public boolean onDestroy() {
+        if(health <= 0) return true;
+        else return false;
+    }
 }
