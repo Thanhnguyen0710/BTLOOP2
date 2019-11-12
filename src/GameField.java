@@ -49,10 +49,10 @@ public class GameField {
         for(int i = 0 ; i < spawnEntity.size() ; i++){
             if(spawnEntity.get(i) instanceof AbstractEnemy){
                 if (((AbstractEnemy) spawnEntity.get(i)).onDestroy()){
+                    coin += ((AbstractEnemy) spawnEntity.get(i)).getReward();
                     spawnEntity.remove(i);
                     i--;
                 }
-
             }
         }
     }

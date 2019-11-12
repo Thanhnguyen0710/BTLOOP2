@@ -6,7 +6,7 @@ public class Spawner extends Road {
     private final int posX = 0;
     private final int posY = 7;
 
-    public int getPosX() {
+    public  int getPosX() {
         return posX;
     }
 
