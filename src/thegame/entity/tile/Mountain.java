@@ -1,4 +1,4 @@
-package entity.tile;
+package thegame.entity.tile;
 
 public class Mountain implements GameTile{
 

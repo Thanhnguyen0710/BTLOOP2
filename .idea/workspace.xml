@@ -2,9 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c2f0ab-db04-409d-88f2-d8cd44b1f53d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/thegame/GameField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/GameState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/Bullet/AbstractBullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/Bullet/MachineGunBullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/Bullet/NormalBullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/Bullet/SniperBullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/GameEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/AbstractEnemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/BossEnemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/NormalEnemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/SmallerEnemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/TankerEnemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/GameTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/Mountain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/Road.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/Tower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/road/Spawner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/road/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/tower/AbstractTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/tower/MachineGunTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/tower/NormalTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/tower/SniperTower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/road/Spawner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/tile/road/Spawner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Bullet/AbstractBullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Bullet/MachineGunBullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Bullet/NormalBullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Bullet/SniperBullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/GameEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/enemy/AbstractEnemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/enemy/BossEnemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/enemy/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/enemy/NormalEnemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/enemy/SmallerEnemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/enemy/TankerEnemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/tile/GameTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/tile/Mountain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/tile/Road.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/tile/Tower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/tile/road/Spawner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/tile/road/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/tile/tower/AbstractTower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/tile/tower/MachineGunTower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/tile/tower/NormalTower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/tile/tower/SniperTower.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +71,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TUnAnEl1OpWE6bbR0jd1CdUrcN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -90,6 +142,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>

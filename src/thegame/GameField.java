@@ -1,8 +1,10 @@
-import entity.GameEntity;
-import entity.enemy.AbstractEnemy;
-import entity.tile.tower.MachineGunTower;
-import entity.tile.tower.NormalTower;
-import entity.tile.tower.SniperTower;
+package thegame;
+
+import thegame.entity.GameEntity;
+import thegame.entity.enemy.AbstractEnemy;
+import thegame.entity.tile.tower.MachineGunTower;
+import thegame.entity.tile.tower.NormalTower;
+import thegame.entity.tile.tower.SniperTower;
 
 import java.util.ArrayList;
 import java.util.List;

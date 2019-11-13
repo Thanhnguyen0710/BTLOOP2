@@ -1,6 +1,6 @@
-package entity.enemy;
+package thegame.entity.enemy;
 
-import entity.GameEntity;
+import thegame.entity.GameEntity;
 
 public interface Enemy extends GameEntity {
     int getShield();

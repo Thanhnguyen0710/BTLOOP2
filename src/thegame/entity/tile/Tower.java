@@ -1,4 +1,4 @@
-package entity.tile;
+package thegame.entity.tile;
 
 public interface Tower extends GameTile{
 

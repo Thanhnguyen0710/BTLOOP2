@@ -1,6 +1,6 @@
-package entity.Bullet;
+package thegame.entity.Bullet;
 
-import entity.Config;
+import thegame.entity.Config;
 
 public class NormalBullet extends AbstractBullet {
     public NormalBullet(int posX, int posY, int deltaX, int deltaY) {

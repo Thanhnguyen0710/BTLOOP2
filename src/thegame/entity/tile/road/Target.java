@@ -1,6 +1,6 @@
-package entity.tile.road;
+package thegame.entity.tile.road;
 
-import entity.tile.Road;
+import thegame.entity.tile.Road;
 
 public class Target extends Road {
     private final int posX = 20;

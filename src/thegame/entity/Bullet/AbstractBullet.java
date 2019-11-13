@@ -1,6 +1,6 @@
-package entity.Bullet;
+package thegame.entity.Bullet;
 
-import entity.GameEntity;
+import thegame.entity.GameEntity;
 
 public abstract class AbstractBullet implements GameEntity {
     private int posX;

@@ -1,6 +1,6 @@
-package entity.enemy;
+package thegame.entity.enemy;
 
-import entity.Config;
+import thegame.entity.Config;
 
 public class BossEnemy extends AbstractEnemy{
     public BossEnemy(int posX, int posY) {

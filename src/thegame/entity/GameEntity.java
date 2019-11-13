@@ -1,4 +1,4 @@
-package entity;
+package thegame.entity;
 
 public interface GameEntity {
 

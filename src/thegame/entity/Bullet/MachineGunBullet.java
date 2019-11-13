@@ -1,6 +1,6 @@
-package entity.Bullet;
+package thegame.entity.Bullet;
 
-import entity.Config;
+import thegame.entity.Config;
 
 public class MachineGunBullet extends AbstractBullet {
     public MachineGunBullet(int posX, int posY, int deltaX, int deltaY) {

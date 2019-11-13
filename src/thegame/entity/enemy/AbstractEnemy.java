@@ -1,6 +1,8 @@
-package entity.enemy;
+package thegame.entity.enemy;
 
-import entity.enemy.Enemy;
+import thegame.GameField;
+import thegame.entity.enemy.Enemy;
+import thegame.entity.tile.road.Target;
 
 public abstract class AbstractEnemy implements Enemy {
     private int shield;
@@ -58,7 +60,18 @@ public abstract class AbstractEnemy implements Enemy {
 
     @Override
     public boolean onDestroy() {
-        if(health <= 0) return true;
+        Target target = new Target();
+        if(health <= 0 ||(posX == target.getPosX() && posY == target.getPosY())) return true;
         else return false;
+    }
+
+    public void move(GameField field){
+        if(field.gameFeild[posX+1][posY] == 0){
+            posX += 1;
+        }
+        else if(field.gameFeild[posX][posY+1] == 0){
+            posY += 1;
+        }
+        else posY -= 1;
     }
 }

@@ -1,6 +1,6 @@
-package entity.tile.tower;
+package thegame.entity.tile.tower;
 
-import entity.tile.Tower;
+import thegame.entity.tile.Tower;
 
 public abstract class AbstractTower implements Tower {
     private int posX;

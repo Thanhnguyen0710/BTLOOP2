@@ -1,6 +1,6 @@
-package entity.tile.tower;
+package thegame.entity.tile.tower;
 
-import entity.Config;
+import thegame.entity.Config;
 
 public class NormalTower extends AbstractTower {
     public NormalTower(int posX, int posY) {
