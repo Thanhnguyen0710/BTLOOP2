@@ -25,7 +25,17 @@ public class GameField {
             {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
     };
     private int coin = 100;
-    private List<GameEntity> spawnEntity = new ArrayList<GameEntity>();
+    private int health = 20;
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    private static List<GameEntity> spawnEntity = new ArrayList<GameEntity>();
 
     public int getCoin() {
         return coin;
@@ -50,7 +60,7 @@ public class GameField {
     public void doDestroy(){
         for(int i = 0 ; i < spawnEntity.size() ; i++){
             if(spawnEntity.get(i) instanceof AbstractEnemy){
-                if (((AbstractEnemy) spawnEntity.get(i)).onDestroy()){
+                if (((AbstractEnemy) spawnEntity.get(i)).onDestroy(this)){
                     coin += ((AbstractEnemy) spawnEntity.get(i)).getReward();
                     spawnEntity.remove(i);
                     i--;
@@ -59,4 +69,7 @@ public class GameField {
         }
     }
 
+    public static void start(){
+        start();
+    }
 }

@@ -59,9 +59,13 @@ public abstract class AbstractEnemy implements Enemy {
     }
 
     @Override
-    public boolean onDestroy() {
+    public boolean onDestroy(GameField field) {
         Target target = new Target();
-        if(health <= 0 ||(posX == target.getPosX() && posY == target.getPosY())) return true;
+        if(health <= 0 ) return true;
+        else if (posX == target.getPosX() && posY == target.getPosY()) {
+            field.setHealth(field.getHealth()-1);
+            return true;
+        }
         else return false;
     }
 
