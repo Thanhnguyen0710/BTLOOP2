@@ -69,7 +69,7 @@ public final class GameEntities {
         }
         return outputEntities;
     }
-
+//
 
     public static <E extends GameEntity> Collection<E> getFilteredContainingEntities(Collection<GameEntity> entities,
                                                                                      Class<E> entityClass, double posX, double posY, double width, double height) {
