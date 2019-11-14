@@ -24,10 +24,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage){
-        Canvas canvas = new Canvas(1050,700);
-        GraphicsContext graphicsContext = canvas.getGraphicsContext2D();
-
-        primaryStage.setTitle("test");
+        primaryStage.setTitle("The game !!!");
         Image background = new Image(this.getClass().getResourceAsStream("/image/background/background.png"));
         ImageView backgroundView = new ImageView();
         backgroundView.setImage(background);
