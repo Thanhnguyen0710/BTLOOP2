@@ -138,17 +138,7 @@ public final class GameEntities {
     }
 
 
-    public static Collection<LivingEntity> getAffectedEntities(Collection<GameEntity> entities,
-                                                               Class<? extends EffectEntity> entityClass, double posX, double posY, double width, double height) {
-        final List<LivingEntity> outputEntities = new ArrayList<>(Config._TILE_MAP_COUNT);
-        for (final GameEntity entity : entities) {
-            if (entity instanceof LivingEntity && entity.isBeingOverlapped(posX, posY, width, height)) {
-                final LivingEntity livingEntity = (LivingEntity) entity;
-                if (isAffectable(entityClass, livingEntity.getClass())) outputEntities.add(livingEntity);
-            }
-        }
-        return outputEntities;
-    }
+
 
     public static <E extends GameEntity, V extends E> Collection<V> entitiesFilter(Collection<E> entities, Class<V> entityClass) {
         final List<V> outputEntities = new ArrayList<>(Config._TILE_MAP_COUNT);
