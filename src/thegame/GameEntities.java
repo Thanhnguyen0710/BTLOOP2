@@ -15,17 +15,7 @@ import javax.annotation.Nonnull;
 import java.util.*;
 
 public final class GameEntities {
-    private static final Set<UnorderedPair<Class<? extends GameEntity>, Class<? extends GameEntity>>> COLLISION_PAIR_SET
-            = new HashSet<>(Set.of(
-            UnorderedPair.immutableOf(Mountain.class, NormalEnemy.class),
-//			UnorderedPair.immutableOf(Mountain.class, SmallerEnemy.class),
-//			UnorderedPair.immutableOf(Mountain.class, TankerEnemy.class),
-//			UnorderedPair.immutableOf(Mountain.class, BossEnemy.class),
-            UnorderedPair.immutableOf(NormalEnemy.class, NormalEnemy.class)//,
-//			UnorderedPair.immutableOf(SmallerEnemy.class, SmallerEnemy.class),
-//			UnorderedPair.immutableOf(TankerEnemy.class, TankerEnemy.class),
-//			UnorderedPair.immutableOf(BossEnemy.class, BossEnemy.class)
-    ));
+
 
     private static final Set<Pair<Class<? extends EffectEntity>, Class<? extends LivingEntity>>> EFFECT_LIVING_SET
             = new HashSet<>(Set.of(
