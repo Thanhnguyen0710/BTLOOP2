@@ -8,6 +8,7 @@ import thegame.entity.tile.tower.SniperTower;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class GameField {
     public static int[][] gameFeild = {
@@ -35,7 +36,15 @@ public class GameField {
         this.health = health;
     }
 
-    private static List<GameEntity> spawnEntity = new ArrayList<GameEntity>();
+    private List<GameEntity> entities = new ArrayList<GameEntity>();
+
+    public List<GameEntity> getEntities() {
+        return entities;
+    }
+
+    public void setEntities(List<GameEntity> entities) {
+        this.entities = entities;
+    }
 
     public int getCoin() {
         return coin;
@@ -46,23 +55,23 @@ public class GameField {
     }
 
     public void doSpawnNormalTower(int posX,int posY){
-        spawnEntity.add(new NormalTower(posX,posY));
+        entities.add(new NormalTower(posX,posY));
     }
 
     public void doSpawnSniperTower(int posX,int posY){
-        spawnEntity.add(new SniperTower(posX,posY));
+        entities.add(new SniperTower(posX,posY));
     }
 
     public void doSpawnMachineGunTower(int posX,int posY){
-        spawnEntity.add(new MachineGunTower(posX,posY));
+        entities.add(new MachineGunTower(posX,posY));
     }
 
     public void doDestroy(){
-        for(int i = 0 ; i < spawnEntity.size() ; i++){
-            if(spawnEntity.get(i) instanceof AbstractEnemy){
-                if (((AbstractEnemy) spawnEntity.get(i)).onDestroy(this)){
-                    coin += ((AbstractEnemy) spawnEntity.get(i)).getReward();
-                    spawnEntity.remove(i);
+        for(int i = 0 ; i < entities.size() ; i++){
+            if(entities.get(i) instanceof AbstractEnemy){
+                if (((AbstractEnemy) entities.get(i)).onDestroy(this)){
+                    coin += ((AbstractEnemy) entities.get(i)).getReward();
+                    entities.remove(i);
                     i--;
                 }
             }
