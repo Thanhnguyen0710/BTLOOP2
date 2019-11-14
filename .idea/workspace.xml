@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c2f0ab-db04-409d-88f2-d8cd44b1f53d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/boss_enemy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/normal_enemy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/smaller_enemy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/tanker_enemy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/tower/machinegun_tower.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/tower/normal_tower.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/tower/sniper_tower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/background/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/enemy/boss_enemy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/enemy/normal_enemy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/enemy/smaller_enemy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/enemy/tanker_enemy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/tower/machinegun_tower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/tower/normal_tower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/tower/sniper_tower.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/GameField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectBTLOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectBTLOOP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/background/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/enemy/boss_enemy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/enemy/normal_enemy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/enemy/smaller_enemy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/enemy/tanker_enemy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/tower/machinegun_tower.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/tower/normal_tower.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/tower/sniper_tower.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thegame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/enemy/AbstractEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/AbstractEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/Enemy.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +46,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="E:/BTL-OOP/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
@@ -55,7 +63,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DisplayImageEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thegame.DisplayImageEx" />
+      <module name="ProjectBTLOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thegame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProjectBTLOOP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thegame.Main" />
       <module name="ProjectBTLOOP" />
@@ -72,6 +100,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.DisplayImageEx" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573635627908</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1573656359774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573656359774</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,39 +1,44 @@
 package thegame;
 
-import javax.imageio.ImageIO;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
+import javafx.application.Application;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
 import java.io.IOException;
 
-public class Main{
-    private JFrame frame;
+public class Main extends Application {
 
-    public Main() {
-        creatAndShow();
+    public static void main(String[] args) {
+        launch(args);
     }
 
-    public void creatAndShow() {
-        frame = new JFrame();
-        frame.setTitle("The Game!!!");
-        frame.setSize(1050,700);
-        frame.setLocationRelativeTo(null);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        BufferedImage image = null;
-        try {
-            image = ImageIO.read(new File("image/enemy/boss_enemy.jpg"));
-        }
-        catch (IOException e){
-            System.out.println("NO found file");
-        }
-        frame.setLayout(null);
-        frame.setResizable(false);
-        frame.setVisible(true);
-    }
+    @Override
+    public void start(Stage primaryStage){
+        primaryStage.setTitle("test");
+        Image background = new Image(this.getClass().getResourceAsStream("/image/background/background.png"));
+        ImageView backgroundView = new ImageView();
+        backgroundView.setImage(background);
+        backgroundView.setFitHeight(700);
+        backgroundView.setFitWidth(1050);
 
-    public static void main(String[] args)
-    {
-        new Main();
+        Image bossenemy = new Image("/image/enemy/boss_enemy.jpg");
+        ImageView bossenemyView = new ImageView(bossenemy);
+        bossenemyView.setFitWidth(50);
+        bossenemyView.setFitHeight(50);
+        StackPane root = new StackPane();
+        backgroundView.setLayoutX(0);
+        backgroundView.setLayoutY(0);
+        bossenemyView.setLayoutX(0);
+        bossenemyView.setLayoutY(350);
+        root.getChildren().addAll(backgroundView,bossenemyView);
+        Scene scene = new Scene(root,1050,700);
+        primaryStage.setResizable(false);
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
 }
