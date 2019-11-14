@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c2f0ab-db04-409d-88f2-d8cd44b1f53d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/background/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/enemy/boss_enemy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/enemy/normal_enemy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/enemy/smaller_enemy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/enemy/tanker_enemy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/tower/machinegun_tower.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/tower/normal_tower.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/tower/sniper_tower.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectBTLOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectBTLOOP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/background/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/enemy/boss_enemy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/enemy/normal_enemy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/enemy/smaller_enemy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/enemy/tanker_enemy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/tower/machinegun_tower.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/tower/normal_tower.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/tower/sniper_tower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thegame/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/GameField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thegame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thegame/entity/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/Config.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573656359774</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1573695676522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573695676522</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

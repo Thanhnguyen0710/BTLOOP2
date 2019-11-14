@@ -69,6 +69,11 @@ public class GameField {
         }
     }
 
+    public boolean gameOver(){
+        if (health <= 0) return true;
+        return false;
+    }
+
     public static void start(){
         start();
     }

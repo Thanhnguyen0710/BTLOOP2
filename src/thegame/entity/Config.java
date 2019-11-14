@@ -1,6 +1,8 @@
 package thegame.entity;
 
 public class Config {
+    public static final long SCREEN_WIDTH = 1050;
+    public static final long SCREEN_HEIGHT = 700;
 
     //Enemy
     public static final int NORMAL_ENEMY_SHIELD = 3;
