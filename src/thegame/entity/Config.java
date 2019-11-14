@@ -1,6 +1,44 @@
 package thegame.entity;
 
-public class Config {
+public final class Config {
+    public static final String GAME_NAME = "Tower Defense";
+    public static final long GAME_TPS = 20;
+    /**
+     * Nanoseconds per tick
+     */
+    public static final long GAME_NSPT = Math.round(1000000000.0 / GAME_TPS);
+
+    /**
+     * Size of the tile, in pixel.
+     * 1.0 field unit == TILE_SIZE pixel on the screen.
+     * Change it base on your texture size.
+     */
+    public static final long TILE_SIZE = 32;
+    /**
+     * Num of tiles the screen can display if fieldZoom is TILE_SIZE,
+     * in other words, the texture will be display as it without scaling.
+     */
+    public static final long TILE_HORIZONTAL = 30;
+    /**
+     * Num of tiles the screen can display if fieldZoom is TILE_SIZE,
+     * in other words, the texture will be display as it without scaling.
+     */
+    public static final long TILE_VERTICAL = 20;
+    /**
+     * An arbitrary number just to make some code run a little faster.
+     * Do not touch.
+     */
+    public static final int _TILE_MAP_COUNT = (int) (TILE_HORIZONTAL * TILE_VERTICAL);
+
+
+    /**
+     * Size of the screen.
+     */
+    public static final long SCREEN_WIDTH = TILE_SIZE * TILE_HORIZONTAL;
+    /**
+     * Size of the screen.
+     */
+    public static final long SCREEN_HEIGHT = TILE_SIZE * TILE_VERTICAL;
 
     //Enemy
     public static final int NORMAL_ENEMY_SHIELD = 3;
