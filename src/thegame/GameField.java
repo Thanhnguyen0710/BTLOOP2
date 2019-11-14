@@ -8,7 +8,6 @@ import thegame.entity.tile.tower.SniperTower;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 public class GameField {
     public static int[][] gameFeild = {
