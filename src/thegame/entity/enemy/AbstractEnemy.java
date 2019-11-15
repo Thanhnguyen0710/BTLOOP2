@@ -1,8 +1,6 @@
 package thegame.entity.enemy;
 
 import thegame.GameField;
-import thegame.GameRender;
-import thegame.entity.enemy.Enemy;
 import thegame.entity.tile.road.Target;
 
 public abstract class AbstractEnemy implements Enemy {

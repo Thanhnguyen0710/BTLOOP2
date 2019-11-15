@@ -2,35 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c2f0ab-db04-409d-88f2-d8cd44b1f53d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thegame/GameRender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/background/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/background/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/background/gameover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/background/gameover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/background/start.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/background/start.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/enemy/boss_enemy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/enemy/boss_enemy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/enemy/normal_enemy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/enemy/normal_enemy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/enemy/smaller_enemy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/enemy/smaller_enemy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/enemy/tanker_enemy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/enemy/tanker_enemy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/tower/machinegun_tower.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/tower/machinegun_tower.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/tower/normal_tower.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/tower/normal_tower.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/tower/sniper_tower.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/image/tower/sniper_tower.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/thegame/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/thegame/GameController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/thegame/GameField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/thegame/GameField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/thegame/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/thegame/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjectBTLOOP/thegame/entity/enemy/AbstractEnemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBTLOOP/thegame/entity/enemy/AbstractEnemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/background/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/background/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/background/gameover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/background/gameover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/background/start.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/background/start.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/enemy/boss_enemy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/enemy/boss_enemy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/enemy/normal_enemy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/enemy/normal_enemy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/enemy/smaller_enemy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/enemy/smaller_enemy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/enemy/tanker_enemy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/enemy/tanker_enemy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/tower/machinegun_tower.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/tower/machinegun_tower.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/tower/normal_tower.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/tower/normal_tower.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/tower/sniper_tower.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/tower/sniper_tower.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thegame/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thegame/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/GameField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thegame/GameRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/GameRender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thegame/entity/enemy/AbstractEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/AbstractEnemy.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -223,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573825965381</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update">
+      <created>1573830751780</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573830751780</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

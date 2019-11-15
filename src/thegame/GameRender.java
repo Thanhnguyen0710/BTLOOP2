@@ -2,7 +2,7 @@ package thegame;
 
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.stage.Stage;
+import javafx.scene.layout.Pane;
 import thegame.entity.enemy.BossEnemy;
 import thegame.entity.enemy.NormalEnemy;
 import thegame.entity.enemy.SmallerEnemy;
@@ -16,11 +16,11 @@ import java.util.List;
 
 public class GameRender {
     private GameField field;
-    private Stage primaryStage;
+    private Pane pane;
 
-    public GameRender(GameField field, Stage primaryStage) {
+    public GameRender(GameField field,Pane pane){
+        this.pane = pane;
         this.field = field;
-        this.primaryStage = primaryStage;
     }
 
     private final String normal_enemy = "/image/enemy/enemy.jpg";
@@ -102,7 +102,7 @@ public class GameRender {
     }
 
     public void render(){
-        for(int i = 0 ; i < field.getEntities().size(); i++) {
+        for(int i = imageViewList.size() ; i < field.getEntities().size(); i++) {
             if (field.getEntities().get(i) instanceof NormalEnemy)
                 renderNormalEnemy((NormalEnemy)field.getEntities().get(i));
 
@@ -124,5 +124,6 @@ public class GameRender {
             if (field.getEntities().get(i) instanceof MachineGunTower)
                 renderMachineGunTower((MachineGunTower) field.getEntities().get(i));
         }
+        pane.getChildren().addAll(imageViewList);
     }
 }

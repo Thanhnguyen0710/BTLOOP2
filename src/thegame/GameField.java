@@ -80,8 +80,7 @@ public class GameField {
 
     public boolean gameOver(){
         if (health <= 0) {
-            for (int i = 0 ; i < entities.size() ; i++)
-                entities.remove(0);
+            entities.clear();
             return true;
         }
         return false;
