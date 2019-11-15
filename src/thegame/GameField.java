@@ -38,7 +38,25 @@ public class GameField {
             {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
     };
     private int coin = 100;
-    private List<GameEntity> spawnEntity = new ArrayList<GameEntity>();
+    private int health = 20;
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    private List<GameEntity> entities = new ArrayList<GameEntity>();
+
+    public List<GameEntity> getEntities() {
+        return entities;
+    }
+
+    public void setEntities(List<GameEntity> entities) {
+        this.entities = entities;
+    }
 
     public int getCoin() {
         return coin;
@@ -49,23 +67,23 @@ public class GameField {
     }
 
     public void doSpawnNormalTower(int posX,int posY){
-        spawnEntity.add(new NormalTower(posX,posY));
+        entities.add(new NormalTower(posX,posY));
     }
 
     public void doSpawnSniperTower(int posX,int posY){
-        spawnEntity.add(new SniperTower(posX,posY));
+        entities.add(new SniperTower(posX,posY));
     }
 
     public void doSpawnMachineGunTower(int posX,int posY){
-        spawnEntity.add(new MachineGunTower(posX,posY));
+        entities.add(new MachineGunTower(posX,posY));
     }
 
     public void doDestroy(){
-        for(int i = 0 ; i < spawnEntity.size() ; i++){
-            if(spawnEntity.get(i) instanceof AbstractEnemy){
-                if (((AbstractEnemy) spawnEntity.get(i)).onDestroy()){
-                    coin += ((AbstractEnemy) spawnEntity.get(i)).getReward();
-                    spawnEntity.remove(i);
+        for(int i = 0 ; i < entities.size() ; i++){
+            if(entities.get(i) instanceof AbstractEnemy){
+                if (((AbstractEnemy) entities.get(i)).onDestroy(this)){
+                    coin += ((AbstractEnemy) entities.get(i)).getReward();
+                    entities.remove(i);
                     i--;
                 }
             }
@@ -89,4 +107,12 @@ public class GameField {
     }
 
 
+    public boolean gameOver(){
+        if (health <= 0) return true;
+        return false;
+    }
+
+    public static void start(){
+        start();
+    }
 }

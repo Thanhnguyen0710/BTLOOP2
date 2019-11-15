@@ -1,6 +1,11 @@
 package thegame.entity.tile.tower;
 
+import thegame.GameField;
+import thegame.entity.enemy.AbstractEnemy;
 import thegame.entity.tile.Tower;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class AbstractTower implements Tower {
     private int posX;
@@ -25,11 +30,25 @@ public abstract class AbstractTower implements Tower {
 
     @Override
     public int getPosX() {
-        return 0;
+        return posX;
     }
 
     @Override
     public int getPosY() {
-        return 0;
+        return posY;
+    }
+
+    public AbstractEnemy getFindEnemy(GameField field){
+        List<AbstractEnemy> target = new ArrayList<AbstractEnemy>();
+        for(int i = 0; i < field.getEntities().size() ; i++) {
+            if(field.getEntities().get(i) instanceof AbstractEnemy){
+                AbstractEnemy a = (AbstractEnemy)field.getEntities().get(i);
+                if (Math.abs(a.getPosX() - posX) <= range && Math.abs(a.getPosY() - posY) <= range) {
+                    target.add(a);
+                }
+            }
+        }
+        if(target.size() == 0) return null;
+        else return target.get(0);
     }
 }

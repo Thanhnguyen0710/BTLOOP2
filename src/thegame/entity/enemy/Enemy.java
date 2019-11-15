@@ -1,5 +1,6 @@
 package thegame.entity.enemy;
 
+import thegame.GameField;
 import thegame.entity.GameEntity;
 
 public interface Enemy extends GameEntity {
@@ -13,6 +14,6 @@ public interface Enemy extends GameEntity {
 
     boolean isEnemyDead();
 
-    boolean onDestroy();
+    boolean onDestroy(GameField field);
 
 }

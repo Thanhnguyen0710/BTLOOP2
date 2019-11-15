@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c2f0ab-db04-409d-88f2-d8cd44b1f53d" name="Default Changelist" comment="">
-<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/src/thegame/GameField.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/thegame/GameState.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/thegame/Main.java" afterDir="false" />
@@ -54,15 +53,6 @@
       <change beforePath="$PROJECT_DIR$/src/entity/tile/tower/MachineGunTower.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/tile/tower/NormalTower.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/tile/tower/SniperTower.java" beforeDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/GameTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/tile/GameTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/tile/Road.java" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +71,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TUnAnEl1OpWE6bbR0jd1CdUrcN" />
-<<<<<<< Updated upstream
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -91,10 +80,6 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-=======
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
->>>>>>> Stashed changes
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,20 +92,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ProjectBTLOOP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -170,12 +141,9 @@
       </map>
     </option>
   </component>
-<<<<<<< Updated upstream
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
-=======
->>>>>>> Stashed changes
 </project>
