@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c2f0ab-db04-409d-88f2-d8cd44b1f53d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/image/background/start.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thegame/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thegame/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/GameField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thegame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573704818631</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update">
+      <created>1573815279919</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573815279919</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

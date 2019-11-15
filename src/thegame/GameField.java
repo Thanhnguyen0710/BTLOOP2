@@ -27,14 +27,6 @@ public class GameField {
     private int coin = 100;
     private int health = 20;
 
-    public int getHealth() {
-        return health;
-    }
-
-    public void setHealth(int health) {
-        this.health = health;
-    }
-
     private List<GameEntity> entities = new ArrayList<GameEntity>();
 
     public List<GameEntity> getEntities() {
@@ -43,6 +35,14 @@ public class GameField {
 
     public void setEntities(List<GameEntity> entities) {
         this.entities = entities;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
     }
 
     public int getCoin() {
@@ -78,11 +78,12 @@ public class GameField {
     }
 
     public boolean gameOver(){
-        if (health <= 0) return true;
+        if (health <= 0) {
+            for (int i = 0 ; i < entities.size() ; i++)
+                entities.remove(0);
+            return true;
+        }
         return false;
     }
 
-    public static void start(){
-        start();
-    }
 }
