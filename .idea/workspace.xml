@@ -2,57 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c2f0ab-db04-409d-88f2-d8cd44b1f53d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thegame/GameField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/GameState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/Bullet/AbstractBullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/Bullet/MachineGunBullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/Bullet/NormalBullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/Bullet/SniperBullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/GameEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/AbstractEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/BossEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/NormalEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/SmallerEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/TankerEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/GameTile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/Mountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/Road.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/Tower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/road/Spawner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/road/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/tower/AbstractTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/tower/MachineGunTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/tower/NormalTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/tower/SniperTower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Bullet/AbstractBullet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Bullet/MachineGunBullet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Bullet/NormalBullet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Bullet/SniperBullet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/GameEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/enemy/AbstractEnemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/enemy/BossEnemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/enemy/Enemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/enemy/NormalEnemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/enemy/SmallerEnemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/enemy/TankerEnemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/GameTile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/Mountain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/Road.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/Tower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/road/Spawner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/road/Target.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/tower/AbstractTower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/tower/MachineGunTower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/tower/NormalTower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/tower/SniperTower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thegame/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thegame/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/GameField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thegame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
   </component>
   <component name="ProjectId" id="1TUnAnEl1OpWE6bbR0jd1CdUrcN" />
   <component name="ProjectLevelVcsManager">
@@ -77,7 +31,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="E:/BTL-OOP/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
@@ -92,6 +47,53 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DisplayImageEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thegame.DisplayImageEx" />
+      <module name="ProjectBTLOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thegame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProjectBTLOOP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thegame.Main" />
+      <module name="ProjectBTLOOP" />
+      <option name="VM_PARAMETERS" value="--module-path E:/BTL-OOP/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thegame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.DisplayImageEx" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.DisplayImageEx" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -125,7 +127,63 @@
       <option name="project" value="LOCAL" />
       <updated>1573561476540</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1573635627908</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573635627908</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1573656359774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573656359774</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1573695676522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573695676522</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1573699777936</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573699777936</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1573700186588</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573700186588</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1573702783448</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573702783448</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1573704818631</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573704818631</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1573815279919</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573815279919</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
