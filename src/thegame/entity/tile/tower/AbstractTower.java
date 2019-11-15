@@ -28,12 +28,10 @@ public abstract class AbstractTower implements Tower {
         this.speed = speed;
     }
 
-    @Override
     public int getPosX() {
         return posX;
     }
 
-    @Override
     public int getPosY() {
         return posY;
     }

@@ -41,21 +41,25 @@ public final class Config {
     public static final long SCREEN_HEIGHT = TILE_SIZE * TILE_VERTICAL;
 
     //Enemy
+    public static final double NORMAL_ENEMY_SIZE = 0.9;
     public static final int NORMAL_ENEMY_SHIELD = 3;
     public static final int NORMAL_ENEMY_REWARD = 20;
     public static final double NORMAL_ENEMY_MOVESPEED = 0.3;
     public static final int NORMAL_ENEMY_HEALTH = 100;
 
+    public static final double SMALLER_ENEMY_SIZE = 0.7;
     public static final int SMALLER_ENEMY_SHIELD = 0;
     public static final int SMALLER_ENEMY_REWARD = 10;
     public static final double SMALLER_ENEMY_MOVESPEED = 0.4;
     public static final int SMALLER_ENEMY_HEALTH = 50;
 
+    public static final double TANKER_ENEMY_SIZE = 1.1;
     public static final int TANKER_ENEMY_SHIELD = 5;
     public static final int TANKER_ENEMY_REWARD = 30;
     public static final double TANKER_ENEMY_MOVESPEED = 0.2;
     public static final int TANKER_ENEMY_HEALTH = 300;
 
+    public static final double BOSS_ENEMY_SIZE = 1.3;
     public static final int BOSS_ENEMY_SHIELD = 8;
     public static final int BOSS_ENEMY_REWARD = 100;
     public static final double BOSS_ENEMY_MOVESPEED = 0.3;

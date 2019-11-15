@@ -1,7 +1,5 @@
 package thegame.entity.Bullet;
 
-import thegame.entity.GameEntity;
-
 public abstract class AbstractBullet implements GameEntity {
     private int posX;
     private int posY;

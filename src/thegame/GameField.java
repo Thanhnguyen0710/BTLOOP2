@@ -1,26 +1,16 @@
 package thegame;
 
-import javafx.scene.Scene;
-import javafx.scene.image.Image;
-import javafx.scene.canvas.Canvas;
-import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.image.ImageView;
-import javafx.scene.layout.StackPane;
-import javafx.scene.layout.VBox;
-import javafx.scene.text.FontSmoothingType;
-import javafx.stage.Stage;
+import entity.tile.GameTile;
 import thegame.entity.Config;
-import thegame.entity.GameEntity;
 import thegame.entity.enemy.AbstractEnemy;
+import thegame.entity.tile.GameEntity;
+import thegame.entity.tile.tower.AbstractTower;
 import thegame.entity.tile.tower.MachineGunTower;
 import thegame.entity.tile.tower.NormalTower;
 import thegame.entity.tile.tower.SniperTower;
-import javafx.scene.control.Button;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
-import static thegame.entity.Config.GAME_NAME;
 
 public class GameField {
     public static int[][] gameField = {
@@ -37,6 +27,7 @@ public class GameField {
             {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
             {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
     };
+    private final List<AbstractEnemy> spawnEntities = new ArrayList<>(Config._TILE_MAP_COUNT);
     private int coin = 100;
     private int health = 20;
 
@@ -67,6 +58,7 @@ public class GameField {
     }
 
     public void doSpawnNormalTower(int posX,int posY){
+        if (entities instanceof AbstractTower)
         entities.add(new NormalTower(posX,posY));
     }
 
@@ -89,23 +81,10 @@ public class GameField {
             }
         }
     }
-    public static void start(Stage primaryStage) throws Exception{
-        Image image = new Image(this.getClass().getResourceAsStream("/image/background/start.jpg"));
-        ImageView imageView = new ImageView();
-        imageView.setImage(image);
-
-        Button button1 = new Button("Start");
-        Button button2 = new Button("Quit");
-
-        VBox vbox = new VBox(button1, button2);
-
-        Scene scene = new Scene(vbox,Config.SCREEN_WIDTH, Config.SCREEN_HEIGHT);
-
-        primaryStage.setScene(scene);
-        primaryStage.setTitle(GAME_NAME);
-        primaryStage.show();
+    public final void doSpawn(AbstractEnemy entity) {
+        if (entity.isBeingOverlapped(0.0,0.0,21,12))
+            spawnEntities.add(entity);
     }
-
 
     public boolean gameOver(){
         if (health <= 0) {
