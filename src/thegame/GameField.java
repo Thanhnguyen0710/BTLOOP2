@@ -70,12 +70,13 @@ public class GameField {
         entities.add(new MachineGunTower(posX,posY));
     }
 
-    public void doDestroy(){
+    public void doDestroy(GameRender gameRender){
         for(int i = 0 ; i < entities.size() ; i++){
             if(entities.get(i) instanceof AbstractEnemy){
                 if (((AbstractEnemy) entities.get(i)).onDestroy(this)){
                     coin += ((AbstractEnemy) entities.get(i)).getReward();
                     entities.remove(i);
+                    gameRender.getImageViewList().remove(i);
                     i--;
                 }
             }
@@ -88,8 +89,7 @@ public class GameField {
 
     public boolean gameOver(){
         if (health <= 0) {
-            for (int i = 0 ; i < entities.size() ; i++)
-                entities.remove(0);
+            entities.clear();
             return true;
         }
         return false;

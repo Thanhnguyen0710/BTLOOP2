@@ -1,30 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="599fd99d-350b-4730-95ef-8936f1b930a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/GameEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/road/BossSpawner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/road/NormalSpawner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/road/SmallerSpawner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thegame/entity/tile/road/TankerSpawner.java" afterDir="false" />
+    <list default="true" id="f3c2f0ab-db04-409d-88f2-d8cd44b1f53d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/GameTile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/tile/Road.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/GameEntities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thegame/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thegame/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/GameField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/Bullet/AbstractBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/Bullet/AbstractBullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/GameEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/enemy/AbstractEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/AbstractEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/enemy/BossEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/BossEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/enemy/NormalEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/NormalEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/enemy/SmallerEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/SmallerEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/enemy/TankerEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/enemy/TankerEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/tile/GameTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/tile/GameTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/tile/road/Spawner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/tile/road/Spawner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thegame/entity/tile/tower/AbstractTower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/entity/tile/tower/AbstractTower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thegame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thegame/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +31,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/BTL-OOP/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
