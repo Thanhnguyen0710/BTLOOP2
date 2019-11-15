@@ -20,27 +20,16 @@ public class Main extends Application {
 
         primaryStage.setTitle("The Game!!!");
         Pane root = new Pane();
-        Pane pane = new Pane();
         Scene startGame = new Scene(root,1050,700);
-        Scene phaygame = new Scene(pane,1050,700);
-
-        Image gamePlay = new Image("/image/background/background.png");
-        ImageView gamePlayView = new ImageView(gamePlay);
-        gamePlayView.setFitWidth(1050);
-        gamePlayView.setFitHeight(700);
-        pane.getChildren().add(gamePlayView);
 
         Image gameStart = new Image("/image/background/start.jpg");
         ImageView gameStartView = new ImageView(gameStart);
         root.getChildren().addAll(gameStartView);
-        gameStartView.setFitHeight(700);
-        gameStartView.setFitWidth(1050);
 
         startGame.setOnMouseClicked(mouseEvent -> {
             if((mouseEvent.getX() > 370 && mouseEvent.getX() < 681) &&
             (mouseEvent.getY() > 387 && mouseEvent.getY() < 570) ) {
                 gameController.start();
-                primaryStage.setScene(phaygame);
             }
             startGame.setOnMouseClicked(null);
         });
