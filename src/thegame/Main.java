@@ -1,21 +1,11 @@
 package thegame;
 
 import javafx.application.Application;
-import javafx.geometry.Point2D;
-import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.canvas.Canvas;
-import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
-import javafx.scene.layout.StackPane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import thegame.entity.Config;
-
-import java.awt.*;
-import java.io.IOException;
 
 public class Main extends Application {
 
@@ -25,24 +15,32 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage){
-        primaryStage.setTitle("The game !!!");
-        Image background = new Image(this.getClass().getResourceAsStream("/image/background/background.png"));
-        ImageView backgroundView = new ImageView();
-        backgroundView.setImage(background);
-        backgroundView.setFitHeight(700);
-        backgroundView.setFitWidth(1050);
-        Image bossenemy = new Image("/image/enemy/boss_enemy.jpg");
-        ImageView bossenemyView = new ImageView(bossenemy);
-        bossenemyView.setFitWidth(50);
-        bossenemyView.setFitHeight(50);
         Pane root = new Pane();
-        bossenemyView.setLayoutX(0);
-        bossenemyView.setLayoutY(350);
-        root.getChildren().add(backgroundView);
-        root.getChildren().add(bossenemyView);
-        Scene scene = new Scene(root,1050,700);
+        Pane pane = new Pane();
+        Scene startGame = new Scene(root,1050,700);
+        Scene phaygame = new Scene(pane,1050,700);
+
+        Image gamePlay = new Image("/image/background/background.png");
+        ImageView gamePlayView = new ImageView(gamePlay);
+        gamePlayView.setFitWidth(1050);
+        gamePlayView.setFitHeight(700);
+        pane.getChildren().add(gamePlayView);
+
+        Image gameStart = new Image("/image/background/start.jpg");
+        ImageView gameStartView = new ImageView(gameStart);
+        root.getChildren().addAll(gameStartView);
+        gameStartView.setFitHeight(700);
+        gameStartView.setFitWidth(1050);
+
+        startGame.setOnMouseClicked(mouseEvent -> {
+            if((mouseEvent.getX() > 370 && mouseEvent.getX() < 681) &&
+            (mouseEvent.getY() > 387 && mouseEvent.getY() < 570) )
+                primaryStage.setScene(phaygame);
+            startGame.setOnMouseClicked(null);
+        });
+
+        primaryStage.setScene(startGame);
         primaryStage.setResizable(false);
-        primaryStage.setScene(scene);
         primaryStage.show();
     }
 }
