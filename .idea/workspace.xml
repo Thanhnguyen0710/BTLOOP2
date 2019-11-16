@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c2f0ab-db04-409d-88f2-d8cd44b1f53d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/image/enemy/boss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/enemy/normalE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/enemy/smallerE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/enemy/tankerE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/tower/machineG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/tower/normalG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/tower/snipper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/background/victory.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/enemy/boss_enemy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/enemy/normal_enemy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/enemy/smaller_enemy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/enemy/tanker_enemy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/tower/machinegun_tower.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/tower/normal_tower.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/tower/sniper_tower.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573836501264</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1573842527752</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573842527752</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
